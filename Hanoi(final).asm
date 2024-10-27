@@ -1,7 +1,6 @@
     .text
 main:
-    addi  s0, zero, 2            # Para almacenar el número de discos
-    add   a1, zero, zero         # Copia n en a1
+    addi  s0, zero, 3            # Para almacenar el número de discos
     lui   s1, 0x100e0            # Dirección de memoria donde se guarda
     addi  s1, s1, 0x0            # Dirección de source[]
     addi  s2, s1, 0x4            # Dirección de aux[]
